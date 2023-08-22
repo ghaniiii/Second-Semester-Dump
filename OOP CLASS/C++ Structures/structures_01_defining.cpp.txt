@@ -1,0 +1,35 @@
+/* example 1 */
+
+#include <iostream>
+using namespace std;
+
+struct Student{
+	int rollNo;
+	string name;
+	char sec;
+};
+
+Student zain,ali;
+
+void display(){
+	ali = {01, "ali khan", 'A'};
+
+	cout<<"Roll no: "<<ali.rollNo<<endl;
+	cout<<"Name: "<<ali.name<<endl;
+	cout<<"sec: "<<ali.sec<<endl<<endl;
+	
+}
+
+int main(){
+
+		
+
+	display();	
+
+	zain = {15,"Zain",'C'};
+
+	cout<<"Roll no: "<<zain.rollNo<<endl;
+	cout<<"Name: "<<zain.name<<endl;
+	cout<<"sec: "<<zain.sec<<endl<<endl;
+
+}
